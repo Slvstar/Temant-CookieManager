@@ -1,0 +1,37 @@
+{
+    "name": "temant/cookie-manager",
+    "description": "A comprehensive PHP utility class for secure and efficient handling of HTTP cookies.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["cookie", "http", "security", "php"],
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Temant\\CookieManager\\": "Src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Temant\\CookieManager\\Tests\\": "Tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emad Almahdi",
+            "email": "emad@almahdi.se"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Slvstar/Temant-CookieManager/issues"
+    },
+    "scripts": {
+        "phpunit": "phpunit",
+        "phpstan": "phpstan analyse"
+    }
+}
